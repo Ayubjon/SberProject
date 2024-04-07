@@ -1,0 +1,11 @@
+version: '1.0'
+
+services:
+  spring:
+    container_name: spring-boot-project
+    build:
+      context: .
+      args:
+        DOCKER_BUILDKIT: 1
+    ports:
+      - "8080:8080"
