@@ -18,3 +18,9 @@ http://localhost:8080/api/v1/get-factorial
 ```
 Скрин:
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](./images/postman-test.png)
+
+Метрики можно посмотреть запросом:
+```
+http://localhost:8080/actuator/prometheus
+```
+Также в проекте написаны тесты и предусмотрены разного рода ошибки
